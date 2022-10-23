@@ -1,0 +1,68 @@
+.text {
+  padding: 3.2rem;
+  text-align: left;
+  background-color: $color-white;
+
+  &__pre-headline {
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: $color-blue-greyish;
+  }
+
+  &__headline {
+    font-family: $font-secondary;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    color: $color-blue-dark;
+    margin-bottom: 2.4rem;
+  }
+
+  &__description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    color: $color-blue-greyish;
+    margin-bottom: 2.9rem;
+  }
+
+  &__prices {
+    display: flex;
+    gap: 1.9rem;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    &--price {
+      font-family: $font-secondary;
+      font-weight: 700;
+      font-size: 3.2rem;
+      color: $color-cyan;
+    }
+
+    &--discount {
+      font-weight: 500;
+      font-size: 1.3rem;
+      color: $color-blue-greyish;
+      text-decoration-line: line-through;
+    }
+  }
+
+  &__btn {
+    border-radius: 0.8rem;
+    background-color: $color-cyan;
+    border: none;
+    width: 23.6rem;
+    height: 4.8rem;
+    color: $color-white;
+
+    &--icon {
+    }
+    &--text {
+      font-weight: 700;
+      font-size: 1.4rem;
+      font-family: $font-primary;
+    }
+  }
+}
