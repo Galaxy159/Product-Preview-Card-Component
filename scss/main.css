@@ -74,12 +74,7 @@ body {
   font-weight: 500;
   line-height: 2.3rem;
   color: hsl(228deg, 12%, 48%);
-  margin-bottom: 2.9rem;
-}
-@media (max-width: 600px) {
-  .text__description {
-    margin-bottom: 2.4rem;
-  }
+  margin-bottom: 2.4rem;
 }
 .text__prices {
   display: flex;
