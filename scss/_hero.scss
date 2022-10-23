@@ -2,4 +2,9 @@
   background-image: url(../images/image-product-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (max-width: 600px) {
+    height: 24rem;
+    background-position: 50%;
+  }
 }

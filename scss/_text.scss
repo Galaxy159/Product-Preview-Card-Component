@@ -3,12 +3,20 @@
   text-align: left;
   background-color: $color-white;
 
+  @media (max-width: 600px) {
+    padding: 2.4rem;
+  }
+
   &__pre-headline {
     font-size: 1.2rem;
     letter-spacing: 0.5rem;
     font-weight: 500;
     margin-bottom: 2rem;
     color: $color-blue-greyish;
+
+    @media (max-width: 600px) {
+      margin-bottom: 1.2rem;
+    }
   }
 
   &__headline {
@@ -18,6 +26,10 @@
     line-height: 3.2rem;
     color: $color-blue-dark;
     margin-bottom: 2.4rem;
+
+    @media (max-width: 600px) {
+      margin-bottom: 1.6rem;
+    }
   }
 
   &__description {
@@ -26,6 +38,10 @@
     line-height: 2.3rem;
     color: $color-blue-greyish;
     margin-bottom: 2.9rem;
+
+    @media (max-width: 600px) {
+      margin-bottom: 2.4rem;
+    }
   }
 
   &__prices {
@@ -33,6 +49,10 @@
     gap: 1.9rem;
     align-items: center;
     margin-bottom: 3rem;
+
+    @media (max-width: 600px) {
+      margin-bottom: 2rem;
+    }
 
     &--price {
       font-family: $font-secondary;
@@ -56,16 +76,27 @@
     width: 23.6rem;
     height: 4.8rem;
     color: $color-white;
-    cursor: pointer;
+    cursor: url("../images/Pointer.svg"), auto;
     transition: all 0.2s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.161rem;
+
+    @media (max-width: 600px) {
+      width: 29.5rem;
+      height: 4.8rem;
+    }
 
     &:hover,
     :active {
       background-color: #1a4032;
     }
 
-    &--icon {
+    & img {
     }
+
     &--text {
       font-weight: 700;
       font-size: 1.4rem;
