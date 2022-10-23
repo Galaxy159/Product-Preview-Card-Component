@@ -80,6 +80,10 @@ body {
   width: 23.6rem;
   height: 4.8rem;
   color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+}
+.text__btn:hover {
+  background-color: #1a4032;
 }
 .text__btn--text {
   font-weight: 700;
