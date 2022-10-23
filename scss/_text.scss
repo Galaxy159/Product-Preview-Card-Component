@@ -57,8 +57,10 @@
     height: 4.8rem;
     color: $color-white;
     cursor: pointer;
+    transition: all 0.2s;
 
-    &:hover {
+    &:hover,
+    :active {
       background-color: #1a4032;
     }
 
