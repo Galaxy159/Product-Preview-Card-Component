@@ -37,14 +37,18 @@
     font-weight: 500;
     line-height: 2.3rem;
     color: $color-blue-greyish;
-    margin-bottom: 2.4rem;
+    margin-bottom: 2.6rem;
+
+    @media (max-width: 600px) {
+      margin-bottom: 2.4rem;
+    }
   }
 
   &__prices {
     display: flex;
     gap: 1.9rem;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2.6rem;
 
     @media (max-width: 600px) {
       margin-bottom: 2rem;
