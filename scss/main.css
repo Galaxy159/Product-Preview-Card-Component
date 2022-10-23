@@ -16,6 +16,22 @@ body {
   background-color: hsl(30deg, 38%, 92%);
 }
 
+.content {
+  max-width: 60rem;
+  height: 45rem;
+  margin: 17.5rem auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero {
+  background-image: url(../images/image-product-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
