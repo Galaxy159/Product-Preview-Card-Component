@@ -133,11 +133,6 @@ body {
 .text__btn :active {
   background-color: #1a4032;
 }
-.text__btn img {
-  position: absolute;
-  left: 6.3rem;
-  top: 1.6rem;
-}
 
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/image-product-desktop.jpg);
